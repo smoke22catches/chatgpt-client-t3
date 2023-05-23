@@ -1,5 +1,5 @@
 import { render, screen } from "@testing-library/react";
-import WelcomeScreen from "./WelcomeScreen";
+import WelcomeScreen from "~/pages/components/modules/WelcomeScreen";
 
 describe("Welcome screen", () => {
   it("should display right title", () => {
